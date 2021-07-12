@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Personal Profile Setup</title>
+
+<style>
+    h2.grey-text {
+        color: #808080
+    }
+    
+    th.title {
+        color: #808080
+    }
+    
+    td.title {
+        color: #808080
+    }
+
+    td.title, required {
+        color: #808080
+    }
+    
+    td.dropdown {
+        color: #808080
+    }
+    input, select, textarea {
+        color: #808080
+        
+    }
+   
+   table{
+    border-spacing: 15px
+
+   }
+    .btn {
+        background-color: #1B950D;
+        color: #ffffff;
+        font-size: 15px;
+        border-radius: 25px;
+        width: 100px;
+        height: 44px;
+        border-radius: 10px;
+        
+        }
+    
+    .align-right {
+        text-align: right;
+        border: 0;
+        margin-right: 60px;
+        
+    }
+
+</style>
+   
+    
+</head>
+<body>
+<div class="body-section">
+
+<div class="form">
+   <h2 class="grey-text">Personal profile setup</h2>
+</br>
+</br>
+    <form>
+    <table class="table">
+        
+        <tr>
+            
+        <td class="title"></td>
+        <td class="title">Name:*</td>
+        <td class="title">Surname:*</td>
+        
+        </tr>
+        <tr>
+            <td>
+                <div class="image">
+                    <i class="fas fa-upload"></i>
+                <label for="img"></label>
+                <input type="file" id="img" name="img" accept="image/*">
+                </div>
+            </td>
+            
+            <td class="first-name">
+                <input type="text" class="textarea" id="fname" required>
+            </td>
+            
+            <td>
+              <input type="text" class="textarea" id="sname" required>
+            </td>
+            
+        </tr>
+        
+    </table>
+</div>
+</br>
+<div class="form">
+  <table class="table">
+    
+        <tr>
+        <td class="title">Bith date:</td>
+        </tr>
+        <td>
+            <input type="date" id="birthday">
+        </td>
+   
+    </table>
+</div>
+</br>
+<div class="form">
+    <table class="table">
+    
+        <tr>
+        <td class="title">Job position:</td>
+        </tr>
+        <td>
+            <input type="text" class="textarea" id="job">
+        </td>
+    
+    </table>
+</div>
+</br>
+<div class="form">
+    <table class="table">
+        
+            <tr>
+            <td class="title">Mobile:</td>
+            </tr>
+            <td>
+                <input type="tel" class="textarea" id="contact">
+            </td>
+        
+        </table>
+</div>
+    </br>
+<div class="form">
+    <table class="table">
+        
+        <td class="title">Social media:</td>
+       
+        <tr>
+        <td class="title">Facebook:</td>
+        <td class="title">Linkedin:</td>
+        <td class="title">Twitter:</td>
+        </tr>
+        <tr>
+            
+            <td>
+                <input type="text" class="textarea" id="social" >
+            </td>
+            
+            <td>
+              <input type="text" class="textarea" id="social">
+            </td>
+
+            <td>
+                <input type="text" class="textarea" id="social">
+            </td>
+            
+        </tr>
+        
+    </table> 
+</div> 
+</br>
+<div class="form">
+<table class="table">
+    
+    <tr>
+    <td class="title">Language:</td>
+    <td class="title">Time zone:</td>
+    </tr>
+    <tr>
+        
+        <td class="dropdown">
+            <form action="" name="FILTER">
+            <select name="spoken" id="Language">
+              <option value="English">English</option>
+              <option value="Italian">Italian</option>
+              <option value="French">French</option>
+              <option value="German">German</option>
+              <option value="Romansh">Romansh</option>
+            </select>
+            </form>
+          
+        </td>
+        
+        <td class="dropdown">
+            <form action="" name="time">
+            <select name="time" id="timezone">
+              <option value="Pretoria">GMT+2 Pretoria</option>
+              <option value="Bangkok">GMT+7 Bangkok</option>
+              <option value="Perth">GMT+8 Perth</option>
+            </select>
+            </form>
+          
+        </td>
+        
+    </tr>
+    
+
+
+</table>
+</form>
+</div>
+</br>
+</br>
+
+
+
+
+
+</body>
+
+
+
+<footer>
+    <div class="align-right">
+        <button type="button" class="btn">Next &nbsp &nbsp<i class="far fa-sm fa-chevron-right"></i></button>
+                
+    </div>
+</br>
+</br>
+</footer>
+
+</html>
